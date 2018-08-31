@@ -1,0 +1,10 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/citadel:1.0.1 &&            docker save -o citadel.tar registry.cn-hangzhou.aliyuncs.com/bqwang/citadel:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/galley:1.0.1  &&            docker save -o galley.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/galley:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/hyperkube:v1.7.6_coreos.0  && docker save -o hyperkube.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/hyperkube:v1.7.6_coreos.0
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/mixer:1.0.1   &&  docker save -o mixer.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/mixer:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/pilot:1.0.1  &&  docker save -o pilot.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/pilot:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/prometheus:v2.3.1  &&  docker save -o prometheus.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/prometheus:v2.3.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/proxyv2:1.0.1   &&  docker save -o proxyv2.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/proxyv2:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/proxy_init:1.0.1  &&  docker save -o proxy_init.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/proxy_init:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/sidecar_injector:1.0.1  &&  docker save -o sidecar_injector.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/sidecar_injector:1.0.1
+docker pull registry.cn-hangzhou.aliyuncs.com/bqwang/statsd-exporter:v0.6.0  &&  docker save -o exporter.tar  registry.cn-hangzhou.aliyuncs.com/bqwang/exporter:v0.6.0
